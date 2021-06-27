@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(27, 53, 68);
+}
+
+#main {
+  background-color: rgb(41, 78, 100);
+}
+
+#main h1 {
+  padding: 1em;
+  text-align: center;
+}
+
+#grid {
+  background-color: rgb(83, 122, 145);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cell {
+  background-color: rgb(128, 176, 226);
+  text-align: center;
+}
